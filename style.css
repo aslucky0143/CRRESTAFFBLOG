@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+
+}
+nav{
+  position: sticky;
+}
+button {
+  color: black;
+  padding: 1vh;
+  border-radius: 1vh 1vh 1vh 1vh;
+  margin: 1vh;
+  background-color: white;
+}
+.head {
+  color: azure;
+}
+
+.sec1 {
+  min-height: 10vh;
+  color: azure;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(img/2-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header {
+  font-family: fantasy;
+  font-size: 7vh;
+  padding-top: 20%;
+  margin-left: 20%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.carousel-inner{
+  max-height: fit-content;
+  margin-right: 40vh;
+}
+.heade{
+  background-position: left;
+  
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #b6b6b6;
+}
+.dpdn {
+  padding: 1ch;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
